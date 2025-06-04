@@ -1,6 +1,7 @@
-import './App.css';
+import React from 'react';
+import './style.css'; // Assuming you'll keep the CSS in a separate file
 
-function App() {
+const LoginPage = () => {
   return (
     <div className="container">
       <div className="left-panel"></div>
@@ -29,6 +30,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default LoginPage;
